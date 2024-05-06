@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4C2417">
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C8A383"
+            android:text="Start"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="593dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Jack"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#C8A383"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Tamagotchi App"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#C8A383"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":Hi I'm Fluffy"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#C8A383"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="457dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/fluffy"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

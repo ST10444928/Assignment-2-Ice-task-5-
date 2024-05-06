@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C2417"
+    android:foregroundTint="#000000"
+    tools:context=".Main_Activity2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/feedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C8A383"
+            android:clickable="true"
+            android:text="Feed"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C8A383"
+            android:clickable="true"
+            android:text="Play"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+        <Button
+            android:id="@+id/cleanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C8A383"
+            android:clickable="true"
+            android:text="Clean"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="302dp"
+            tools:layout_editor_absoluteY="310dp" />
+
+        <TextView
+            android:id="@+id/feedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feed:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#C8A383"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+        <TextView
+            android:id="@+id/cleanTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clean:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#C8A383"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="540dp" />
+
+        <TextView
+            android:id="@+id/playTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#C8A383"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="632dp" />
+
+        <ImageView
+            android:id="@+id/petImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fluffy"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

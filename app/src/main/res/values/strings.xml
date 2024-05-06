@@ -1,0 +1,20 @@
+<resources>
+    <!-- Feed Message -->
+    <string name="feed">May you please feed me! </string>
+
+    <!-- Play Message -->
+    <string name="Play">Please play_with_me!</string>
+
+    <!-- Cleaned Message -->
+    <string name="Clean">Im really dirty please clean me </string>
+
+    <!-- Update feed message -->
+    <string name="Thank_you_so_much_for_feeding_me">Thank you, I have eaten enough</string>
+
+    <!-- Update play message -->
+    <string name="I_had_so_much_fun_playing">Lovely playing with you</string>
+
+    <!-- Update clean message-->
+    <string name="I_enjoyed_the_bubbles">Lovely playing with you</string>
+<string name="app_name" />
+</resources>
